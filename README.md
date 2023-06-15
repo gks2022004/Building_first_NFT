@@ -1,13 +1,15 @@
-# Sample Hardhat Project
+# Build your own NFT using ERC-721 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+In this repo I have made an NFT, to build the smart contract we would be using Hardhat.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+# To deploy in your terminal type:
 ```
+npx hardhat run scripts/deploy.js --network goerli
+```
+Now save the NFT Contract Address that was printed on your terminal in your notepad, you would need it.
+
+# Verify on Etherscan
+Go to Goerli Etherscan and search for the address that was printed.
+If the address opens up on etherscan, you have deployed your first NFT 🎉
+Go to the transaction details by clicking on the transaction hash, check that there was a token transferred to your address
+
